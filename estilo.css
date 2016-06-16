@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+body{
+    width: 1024px;
+    margin: auto;    
+}
+header{
+    height: 50px;
+    position: relative;
+    margin-bottom: 10px;
+    background: gray;
+}
+.slide{
+    height: 400px;
+    background: grey;
+    position: relative; 
+}
+nav{
+    height: 50px;
+    background: gray;
+    position: relative;
+    border-top:1px solid black;
+}
+section div{
+     width: 161px;
+    height: 217px;
+    float:left;
+    position: relative;
+    background: gray;
+    margin: 10px 10px 10px 0px;
+}
+
+section div:nth-child(6){
+    width: 161px;
+    height: 217px;
+    float:right;
+    position: relative;
+    background: gray;
+    margin: 10px 0px 10px 0px;
+}
+footer{
+    height: 50px;
+    background: gray;
+    clear: both;
+}
